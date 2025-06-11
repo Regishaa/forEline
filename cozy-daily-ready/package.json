@@ -2,13 +2,13 @@
   "name": "cozy-daily",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Regishaa.github.io/forEline ",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "homepage": "https://Regishaa.github.io/forEline",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
