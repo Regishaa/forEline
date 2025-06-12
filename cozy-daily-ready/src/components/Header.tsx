@@ -18,7 +18,7 @@ export default function Header() {
           <h1 className="text-3xl sm:text-4xl font-extrabold text-pink-600 drop-shadow">
             С Днём рождения, Элинчик! 💖
           </h1>
-          <p className="text-xs sm:text-sm mt-1 text-pink-700">
+          <p className="text-2xl sm:text-2xl mt-1 text-pink-700">
             Ты — чудо, и это поздравление только для тебя ✨
           </p>
         </div>
