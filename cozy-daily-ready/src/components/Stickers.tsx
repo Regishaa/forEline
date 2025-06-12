@@ -63,7 +63,7 @@ const stickers = [
   { src: cloud, top: '50%', left: '15%', size: '50px', delay: '2s', animationType: 'sway' },
   { src: heart, top: '90%', left: '15%', size: '35px', delay: '1.5s', animationType: 'float' },
   { src: hearts, top: '22%', left: '5%', size: '40px', delay: '0.5s', animationType: 'sway' },
-  { src: loveYoucat, top: '56%', left: '60%', size: '30px', delay: '2.5s', animationType: 'float' },
+  { src: loveYoucat, top: '35%', left: '60%', size: '30px', delay: '2.5s', animationType: 'float' },
   { src: paw, top: '70%', left: '85%', size: '50px', delay: '3s', animationType: 'sway' },
   { src: pinkPaw, top: '95%', left: '37%', size: '35px', delay: '2.3s', animationType: 'float' },
   { src: star, top: '20%', left: '92%', size: '45px', delay: '1.2s', animationType: 'sway' },
