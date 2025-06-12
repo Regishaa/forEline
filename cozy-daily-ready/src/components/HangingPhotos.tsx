@@ -3,7 +3,6 @@ import photo2 from "../assets/images/2.jpg";
 import photo16 from "../assets/images/16.png";
 import photo4 from "../assets/images/4.png";
 import photo5 from "../assets/images/5.png";
-import photo6 from "../assets/images/6.png";
 import clipImg from "../assets/icons/clothespin.png";
 
 const images = [
@@ -12,16 +11,15 @@ const images = [
   { src: photo16, caption: "Ты — чудо 💖" },
   { src: photo4, caption: "Лучшая 👑🌟" },
   { src: photo5, caption: "Сияй! ✨🌟" },
-  { src: photo6, caption: "Мечтай! 🌙⭐" },
 ];
 
 export default function HangingPhotos() {
   return (
-    <div className="relative w-screen overflow-visible pt-80 pb-16 ">
+    <div className="relative w-screen overflow-visible pt-4 pb-16 ">
 
       {/* Верёвка */}
       <svg
-        className="absolute top-[300px] left-0 w-full h-8 z-10 pointer-events-none"
+        className="absolute top-0 left-0 w-full h-8 z-10 pointer-events-none"
         viewBox="0 0 100 10"
         preserveAspectRatio="none"
       >
@@ -57,8 +55,8 @@ export default function HangingPhotos() {
             <div
               className="bg-white border border-gray-300 shadow-lg rounded-sm relative"
               style={{
-                width: 160,
-                height: 200, // 160 для фото + 40 для "полароидной" нижней части
+                width: 200,
+                height: 240, // 160 для фото + 40 для "полароидной" нижней части
                 padding: 10,
                 boxSizing: "border-box",
                 display: "flex",
@@ -70,7 +68,7 @@ export default function HangingPhotos() {
               <img
                 src={img.src}
                 alt={img.caption}
-                className="w-full h-[160px] object-cover rounded-sm"
+                className="w-full h-[200px] object-cover rounded-sm"
                 style={{ borderBottom: "1px solid #eee" }}
               />
               <p className="text-sm font-semibold text-pink-500 mt-2 italic">

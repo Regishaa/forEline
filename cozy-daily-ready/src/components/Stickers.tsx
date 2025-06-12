@@ -58,15 +58,15 @@ const Sticker = styled.img<{
 
 
 const stickers = [
-  { src: cat, top: '10%', left: '5%', size: '40px', delay: '0s', animationType: 'sway' },
+  { src: cat, top: '70%', left: '20%', size: '40px', delay: '0s', animationType: 'sway' },
   { src: chik, top: '33%', left: '20%', size: '35px', delay: '1s', animationType: 'float' },
   { src: cloud, top: '50%', left: '15%', size: '50px', delay: '2s', animationType: 'sway' },
   { src: heart, top: '90%', left: '15%', size: '35px', delay: '1.5s', animationType: 'float' },
-  { src: hearts, top: '5%', left: '15%', size: '40px', delay: '0.5s', animationType: 'sway' },
+  { src: hearts, top: '22%', left: '5%', size: '40px', delay: '0.5s', animationType: 'sway' },
   { src: loveYoucat, top: '56%', left: '60%', size: '30px', delay: '2.5s', animationType: 'float' },
   { src: paw, top: '70%', left: '85%', size: '50px', delay: '3s', animationType: 'sway' },
   { src: pinkPaw, top: '95%', left: '37%', size: '35px', delay: '2.3s', animationType: 'float' },
-  { src: star, top: '17%', left: '92%', size: '45px', delay: '1.2s', animationType: 'sway' },
+  { src: star, top: '20%', left: '92%', size: '45px', delay: '1.2s', animationType: 'sway' },
   { src: unicat, top: '40%', left: '80%', size: '40px', delay: '0.8s', animationType: 'float' },
 ];
 

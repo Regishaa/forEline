@@ -19,6 +19,7 @@ import photo15 from "../assets/images/15.png";
 import photo18 from "../assets/images/18.png";
 import photo19 from "../assets/images/19.png";
 import photo20 from "../assets/images/20.png";
+import Header from "./Header";
 
 const slides = [
   { src: photo3, text: "Твоя улыбка — самое красивое украшение! 😁💎" },
@@ -52,6 +53,12 @@ export default function PhotoSlider() {
 
   return (
     <div className="flex items-center justify-center gap-4 mt-6">
+
+      {/* Наклейка с хедером — фиксируем к левому краю
+      <div className="absolute left-0 -translate-x-full top-8 rotate-[-6deg] z-20 w-[220px] h-[130px]">
+      <Header />
+      </div> */}
+
       {/* Миниатюра предыдущего слайда слева */}
       <div
         className="
@@ -78,7 +85,10 @@ export default function PhotoSlider() {
       </div>
 
       {/* Основной слайдер */}
-      <div className="relative italic w-[420px] bg-pink-50 p-4 rounded-xl shadow-lg">
+      <div className="relative italic w-[420px] bg-pink-50 px-4 pt-4 rounded-xl shadow-lg">
+<div className="absolute -top-48 -left-[40rem] rotate-[-6deg] z-10">
+    <Header />
+  </div>
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={20}
@@ -126,6 +136,8 @@ export default function PhotoSlider() {
           aria-label="Next slide"
         ></div>
       </div>
+
+
 
       {/* Миниатюра следующего слайда справа */}
       <div
