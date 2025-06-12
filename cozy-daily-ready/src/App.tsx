@@ -16,7 +16,7 @@ export default function App() {
       <div>
         <HangingPhotos />
       </div>
-      <div className="flex justify-center -mt-12">
+      <div className="flex justify-center -mt-5">
         <PhotoSlider />
       </div>
       <GiftSection />
