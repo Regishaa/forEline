@@ -58,6 +58,9 @@ export default function GiftSection() {
             <p className="mt-2 text-sm text-pink-400 italic animate-pulse">
               (Потрать его на что-то нужное!)
             </p>
+            <p className="mt-2 text-sm text-pink-400 italic animate-pulse">
+              А получишь ты его, когда не будешь этого ждать🥺💫
+            </p>
             <button
               onClick={handleClose}
               className="mt-4 px-4 py-1 text-sm bg-pink-400 hover:bg-pink-500 text-white rounded-full transition-all shadow"
