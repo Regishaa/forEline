@@ -10,6 +10,8 @@ import paw from '../assets/icons/paw.png';
 import pinkPaw from '../assets/icons/pinkPaw.png';
 import star from '../assets/icons/star.png';
 import unicat from '../assets/icons/unicat.png';
+import eline1 from '../assets/icons/eline1.webp';
+import eline2 from '../assets/icons/eline2.webp';
 
 
 const sway = keyframes`
@@ -58,6 +60,8 @@ const Sticker = styled.img<{
 
 
 const stickers = [
+  { src: eline1, top: '60%', left: '10%', size: '300px', delay: '1.7s', animationType: 'sway' },
+{ src: eline2, top: '30%', left: '80%', size: '300px', delay: '2.1s', animationType: 'float' },
   { src: cat, top: '70%', left: '20%', size: '40px', delay: '0s', animationType: 'sway' },
   { src: chik, top: '33%', left: '20%', size: '35px', delay: '1s', animationType: 'float' },
   { src: cloud, top: '50%', left: '15%', size: '50px', delay: '2s', animationType: 'sway' },
